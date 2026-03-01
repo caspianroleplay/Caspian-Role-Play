@@ -20,8 +20,8 @@ export const LauncherUpdateScreen = React.memo(() => {
       </Text>
       <Text style={styles.alert}>
         Нажмите
-        <Text style={styles.accent}> обновить</Text>, чтобы подтвердить
-        {'\n'} обновление лаунчера.
+        <Text style={styles.accent}> Launcher yeniləməsini</Text>, təsdiqləmək üçün
+        {'\n'} yenilə düyməsinə basın.
       </Text>
       <View style={styles.buttons}>
         <ButtonLauncher
