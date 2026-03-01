@@ -80,8 +80,8 @@ const LauncherDownload = (props: { onPressUpdateHandler: () => void }) => {
     <>
       <Text style={styles.alert}>
         Нажмите
-        <Text style={styles.accent}> загрузить</Text>, чтобы подтвердить
-        {'\n'} загрузку лаунчера.
+        <Text style={styles.accent}> загрузить</Text>, Təsdiqləmək üçün
+        {'\n'} launcher yükləməsində.
       </Text>
       <View style={styles.buttons}>
         <ButtonLauncher
@@ -99,7 +99,7 @@ const LauncherDownload = (props: { onPressUpdateHandler: () => void }) => {
 const LauncherDownloadError = (props: { onPressUpdateHandler: () => void }) => {
   return (
     <>
-      <Text style={styles.alert}>Произошла ошибка при загрузки</Text>
+      <Text style={styles.alert}>Yükləmə zamanı xəta baş verdi</Text>
       <View style={styles.buttons}>
         <ButtonLauncher
           background={'#5476db'}
